@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="manifest" href="manifest.json">
+        <script defer>
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("service-worker.js").then((reg) => {
+                    console.log("yes");
+                }).catch((err) => { console.log(err) })
+            }
+        </script>
+    </head>
+
+    <body>
+        <a href="https://colab.research.google.com/notebooks/">colab</a>
+    </body>
+
+</html>
