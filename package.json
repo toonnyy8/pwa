@@ -20,7 +20,7 @@
   "homepage": "https://github.com/toonnyy8/pwa#readme",
   "dependencies": {
     "core-js": "^3.2.1",
-    "parcel": "^1.12.3",
+    "parcel": "^2.8.2",
     "regenerator-runtime": "^0.13.3"
   },
   "devDependencies": {}
